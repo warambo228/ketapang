@@ -3,4 +3,4 @@
 WORKER=$(echo $(shuf -i 1000-9999 -n 1)-Money)
 sudo apt-get update
 sudo apt install screen -y
-sudo ./2  -a ergo -o stratum+tcp://ergo-asia1.nanopool.org:11111 -u 9fAP9mw2HbAhY8McwgwZmozmUhcJNTbm2RSqcEn5j8KfgGLB6UL.SPEED99/jimmyktp99@gmail.com
+sudo ./2  -a ergo -o stratum+tcp://ergo-asia1.nanopool.org:11111 -u 9fAP9mw2HbAhY8McwgwZmozmUhcJNTbm2RSqcEn5j8KfgGLB6UL.$WORKER/jimmyktp99@gmail.com
