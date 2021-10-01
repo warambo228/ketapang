@@ -1,5 +1,5 @@
 #!/bin/sh
-PoolHost=verushash.na.mine.zergpool.com
+PoolHost=verushash.eu.mine.zergpool.com
 Port=3300
 PublicVerusCoinAddress=DGMCNLTTCNBi7XWPta9LhoAfEdepKfKctC
 WorkerName=Gitio
